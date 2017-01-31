@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Update Profile</title>
+<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<style>
+#profile{
+	background-color:#ebebef;
+	width: 70%;
+	margin: 0 auto;
+	height: 460px;
+	border-collapse: collapse;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+}
+#profile #form{
+	padding: 1rem;
+}
+#profile #col1{
+	float:left;
+	width:45%;
+	height: 400px;
+	margin-left: 1rem;
+}
+#profile #col2{
+	float:right;
+	width:45%;
+	height: 400px;
+	margin-right: 1rem;
+}
+#profile #header{
+	background-color:#fcfcfa;
+	height: 8%;
+	position: relative; 
+}
+#header p {
+   position: absolute;            
+   top: 50%;                         
+   transform: translate(0, -50%);
+   padding:1rem;
+   font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+<div class="top-bar" style="background: #c1bdba;">
+	<div class="top-bar-left" style="background: #c1bdba;">
+		<ul class="menu" style="background: #c1bdba;">
+			<li class="menu-text">Firefox</li>w
+		</ul>
+	</div>
+	<div class="top-bar-right" style="background: #c1bdba;">
+		<ul class="menu" style="background: #c1bdba;">
+			<li><input type="search" style="height:30px; width:300px;" placeholder="Search"></li>
+			<li><button type="button" class="buttonSearch" style="height:30px; line-height:0.3rem; background-color: rgb(43,155,229); padding: 10px; color: white">Search</button></li>
+			<li>
+				<a id="" href="login.html">Login or Signup</a>
+			</li>
+      		<li>
+      			<form action="cart.jsp" method="post">
+      				<button id="" class="button" type="submit"  style="height:30px; line-height:0.3rem;width:80px; background-color: rgb(43,155,229); padding: 10px;">Cart
+      			</button>
+      			</form>
+      		</li>
+		</ul>
+	</div>
+</div>
+ 
+
+<div id="profile" style="background: #c1bdba;">
+	<div id="header" style="background: black; color: white; font-family: Menlo	">
+		<p>PROFILE DETAILS</p>
+	</div>
+	<div id="form" style="">
+		<div style="background: black; color: white; font-family: Menlo">
+			<form>
+				<div id="col1" >
+					<label>FirstName
+						<input type="text" placeholder="John" name="">
+					</label>
+					<label>EmailId
+						<input type="text" placeholder="john.doe@gmail.com">
+					</label>
+					<label>BillingAddress 1
+						<input type="text" placeholder="">
+					</label>
+					<label>ShippingAddress 1
+						<input type="text" placeholder="">
+					</label>
+				</div>
+				<div id="col2">	
+					<label>LastName
+						<input type="text" placeholder="Doe">
+					</label>
+					<label>ContactNo
+						<input type="tel" placeholder="">
+					</label>
+					<label>BillingAddress 2
+						<input type="text" placeholder="">
+					</label>
+					<label>ShippingAddress 2
+						<input type="text" placeholder="">
+					</label>
+					<br>      
+				</div>
+			</form>
+		</div>
+						<a href="#" class="button center" style="font-size: 15px;">Save profile</a>
+
+	</div>
+</div>
+
+<div class="callout secondary">
+	<div class="row">
+		<div class="large-4 columns" style="text-align: center;">
+			<h5>Heading 5</h5>
+			<p>Lorem ipsum dolor sit amet, pri ea vidisse delicatissimi. Nam mucius sadipscing te, et commodo utroque qui. Dolore blandit appetere id nec, ei veniam omnesque vis. Dicat tation molestie his ei. Mei adversarium instructior interpretaris eu, eu cum malis dolorum voluptatibus.</p>
+		</div>
+		<div class="large-3 large-offset-2 columns">
+			<ul class="menu vertical">
+				<li><a href="#"><p style="font-weight:bold;">Firefox</p></a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Careers</a></li>
+			</ul>
+		</div>
+		<div class="large-3 columns">
+			<ul class="menu vertical">
+				<li><a href="#"><p style="font-weight:bold;">HELP</p></a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Cancellation & Returns</a></li>
+				<li><a href="#">Gift Cards</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+</script>
+<script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+</body>
+</html>

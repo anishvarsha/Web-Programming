@@ -1,0 +1,11 @@
+String result=new CartREST().cartAdd(userId,sellerId,price,quantity,itemId);
+		
+		
+    if(result.equals("TRUE")){
+	RequestDispatcher rd=(RequestDispatcher) getServletContext().getRequestDispatcher("/Java Resources/src/main/webapp/welcome.jsp");	
+	rd.forward(request,response);
+    }
+    else{
+    	RequestDispatcher rd=(RequestDispatcher) getServletContext().getRequestDispatcher("/Java Resources/src/main/webapp/LoginFail.jsp");	
+    	rd.forward(request,response);
+        }
